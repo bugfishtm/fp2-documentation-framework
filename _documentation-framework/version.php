@@ -25,29 +25,19 @@
 	*/	
 	$x = array();
 	$x["rname"] 		= "_documentation-framework";
-	$x["build"] 		= "290";
-	$x["version"] 		= "2.".$x["build"];
+	$x["name"] 			= "Framework Documentation";
+	
+	$x["short"] 		= "This module contains the official documentation for you to get insights about integrated functions, classes templates and more! You can also find on <a href=\"https://bugfishtm.github.io\" rel='noopener' target=\"_blank\">https://bugfishtm.github.io</a>!";
+	$x["build"] 		= "100";
+	$x["version"] 		= "1.".$x["build"];
 	$x["iframe"] 		= true;
 	$x["view"] 			= true;
 	$x["singleuse"] 	= false;
-	$x["cat"] 			= "docs";
-	$x["lang"] 			= array("en");
+	$x["cat"] 			= "documentation";
 	$x["license"] 		= "GPLv3";
 	$x["autor"] 		= "Jan-Maurice Dahlmanns";
 	$x["pseudo"] 		= "Bugfish";
 	$x["mail"] 			= "requests@bugfish.eu";
 	$x["website"] 		= "www.bugfish.eu";
-	$x["name"] 			= "Bugfish Framework Documentation";
-	$x["short"] 		= "This is the Bugfish Framework Documentation Module. Discover the Bugfish Framework's optimized PHP functions, essential classes, streamlined CSS, and dynamic JavaScript for seamless web development. Explore our documentation for effortless integration into your CMS.";
-	$x["description"] 	= "Discover the Bugfish Framework's optimized PHP functions, essential classes, streamlined CSS, and dynamic JavaScript for seamless web development. Explore our documentation for effortless integration into your CMS.<br /><br />
-		PHP Functions:<br />
-		Explore Bugfish's PHP Function Library in /framework/functions/x_* for swift website deployment.
-		<br /><br />
-		PHP Classes:<br />
-		Discover essential PHP classes in /framework/classes/x* for efficient and tested functionalities. Integrated seamlessly into your CMS.
-		<br /><br />
-		CSS Classes:<br />
-		Simplify styling with Bugfish's pre-built CSS classes in the '_css' directory, ensuring responsive web layouts.
-		<br /><br />
-		JavaScript Functions:<br />
-		Integrate universal JavaScript functions from /_framework/javascript/*.js, speeding up dynamic web application development. Documentation exclusively for Bugfish Framework, included in your CMS.! You can also find documentations at https://bugfishtm.github.io!";
+	$x["lang"] 			= array("en");
+	$x["description"] 	= $x["short"];

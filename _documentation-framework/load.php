@@ -30,7 +30,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" href="./_core/_image/favicon.ico" type="image/x-icon">
-    <title>Bugfish Framework Documentation</title>
+    <title><?php echo $object["hive_mode"]["name"]; ?></title>
     <style>
         body {
             margin: 0;
@@ -60,7 +60,7 @@
 <body>
     <div id="top-bar">
         <a href="./_site/<?php echo _HIVE_MODE_; ?>/index.html" target="_blank" style="color: #fff; text-decoration: none;">[Direct Link]</a> - 
-        <a href="./_core/_action/admin_switch.php" style="color: #fff; text-decoration: none;">[Back to Administrator]</a>
+        <a href="./_core/_tools/admin_switch.php" style="color: #fff; text-decoration: none;">[Back to Administrator]</a>
     </div>
     
     <div id="iframe-container">
